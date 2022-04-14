@@ -4,8 +4,12 @@ export default class MyPokemon {
     constructor (name) {
       this.name = name
     }
+
+    sayHello(){
+      console.log(`Mi pokemon ${this.name} te saluda!!!`)
+    }
   
-    log (message) {
-      console.log(`[${this.name}] ${message}`)
+    sayMessage(msg){
+      console.log(`Mi pokemon ${this.name} dice: ${msg}`)
     }
   }

@@ -6,3 +6,5 @@ export class Pokemon {
       }
 
 }
+
+console.log(Pokemon)

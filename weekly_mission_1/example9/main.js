@@ -18,3 +18,5 @@ charmander.sayMessage("Heey!")
 
 squirtle.sayHello()
 squirtle.sayMessage("Heey!")
+
+console.log(Pokemon)

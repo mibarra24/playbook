@@ -91,7 +91,12 @@ console.log(all_exercises)
 
 console.log("Ejercicio 2.7: Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME")
 
+const atLeastOne = explorers.some(explorer => explorer.missions.frontend.exercisesFinished === true)
+console.log(atLeastOne)
+
 console.log("Ejercicio 2.8: Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY")
 
+const allofThem = explorers.every(explorer => explorer.missions.onboarding.exercisesFinished === true)
+console.log(allofThem)
 
 
